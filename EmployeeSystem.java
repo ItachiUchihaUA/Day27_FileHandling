@@ -14,18 +14,18 @@ public class EmployeeSystem {
 
 	public static void main(String[] args) throws Exception {
 
-//		Path p = Paths.get("src\\day27_pp1\\textDemo.txt");
-//		add();
-//		add();
+		Path p = Paths.get("src\\day27_pp1\\textDemo.txt");
+		add();
+		add();
 		show();
 		List<EmployeePayroll> t = ojbectFromFile();
 		System.out.println(t);
-//		Path d = Paths.get("src\\day27_pp1\\NewD");
-//		System.out.println("File Exists: " + Files.exists(p));
-//		Files.createDirectories(d);
-//		Files.createFile(p);
-//		Files.walk(Paths.get("C:\\Users\\TheUA\\eclipse-workspace\\com.bridge.week3\\src\\day27_pp1"))
-//				.filter(Files::isRegularFile).forEach(System.out::println);
+		Path d = Paths.get("src\\day27_pp1\\NewD");
+		System.out.println("File Exists: " + Files.exists(p));
+		Files.createDirectories(d);
+		Files.createFile(p);
+		Files.walk(Paths.get("C:\\Users\\TheUA\\eclipse-workspace\\com.bridge.week3\\src\\day27_pp1"))
+				.filter(Files::isRegularFile).forEach(System.out::println);
 
 	}
 
