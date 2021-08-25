@@ -9,7 +9,7 @@ import java.nio.file.StandardOpenOption;
 import java.util.List;
 
 public class EmployeeSystem {
-	static int count = 0;
+	static long count = 0;
 
 	public static void main(String[] args) throws Exception {
 
@@ -49,5 +49,6 @@ public class EmployeeSystem {
 	public static void show() throws Exception{
 		List<String> list =  Files.readAllLines(Paths.get("src\\day27_pp1\\textDemo.txt"));
 		list.stream().forEach(System.out :: println);
+		System.out.println("Count : "+list.stream().count());
 	}
 }
