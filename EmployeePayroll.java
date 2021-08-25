@@ -6,7 +6,7 @@ public class EmployeePayroll {
 	public int salary;
 	@Override
 	public String toString() {
-		return "EmployeePayroll [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+		return "EmployeePayroll [id=" + id + ", name=" + name + ", salary=" + salary + "]\n";
 	}
 	
 }
